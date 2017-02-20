@@ -1,6 +1,6 @@
 # maizuofilm
 
-> A Vue.js project
+> 本项目模仿于卖座电影页面，api由http://m.maizuo.com/v4/api/提供
 
 ## Build Setup
 
