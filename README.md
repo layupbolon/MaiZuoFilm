@@ -1,6 +1,6 @@
-# maizuofilm
+# MaiZuoFilm
 
-> 本项目模仿于卖座电影页面，api由http://m.maizuo.com/v4/api/提供
+> 本项目模仿于卖座电影页面，api由http://m.maizuo.com/v4/api/ 提供。使用vue2全家桶。
 
 ## Build Setup
 
