@@ -1,0 +1,32 @@
+@import "common"
+#head
+  display: flex
+  position: fixed
+  height: 50*$px
+  line-height: 50*$px
+  background: #282828
+  color: #999
+  width: 100%
+  z-index: 99
+  .head_menu
+    flex: 1
+    justify-content: center
+    align-items: center
+    width: 50*$px
+    height: 50*$px
+    text-align: center
+    border-right: 3*$px solid #363636
+  .title
+    flex: 5
+    font-weight: bold
+    font-size: 20*$px
+    margin-left: 25*$px
+    color: #fff
+  .head_right
+    flex: 3
+    display: flex
+    justify-content: space-between
+    .head_city
+      font-size: 20*$px
+    .head_mine
+      margin-right: 20*$px

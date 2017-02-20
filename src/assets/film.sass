@@ -1,0 +1,61 @@
+@import 'common'
+
+#film
+  padding: 0 15*$px
+  p
+    margin: 0
+    padding: 0
+  .tabBar
+    display: flex
+    height: 45*$px
+    line-height: 45*$px
+    margin-bottom: 10*$px
+    .item
+      width: 50%
+      text-align: center
+      font-size: 17*$px
+      font-weight: bold
+      border-bottom: 1px solid #fe6e00
+      &.active
+        border-bottom: 4px solid #fe6e00
+        color: #fe6e00
+  .tab_content
+    .now-playing,.coming-soon
+      .item
+        display: flex
+        justify-content: flex-start
+        height: 100*$px
+        border-bottom: 1px dashed #8e8e8e
+        margin-bottom: 10*$px
+        &:last-child
+          border-bottom: none
+        .avater
+          width: 100*$px
+          img
+              width: 75%
+              height: 86%
+        .info
+          flex: 6
+          margin-top: 10*$px
+          h4
+            font-size: 15*$px
+          p,span,.date
+            font-size: 13*$px
+            color: #8e8e8e
+            line-height: 30*$px
+            i
+              color: #8aa2bf
+          .date
+            color: #fe6e00
+            font-weight: bold
+        .grade
+          flex: 1
+          margin: 10*$px 15*$px
+          color: #fe6e00
+          font-weight: bold
+
+.list-enter,.list-leave-active
+  transform: translateY(50*$px)
+  opacity: 0
+.list-leave,.list-enter-active
+  transition: all ease 1s

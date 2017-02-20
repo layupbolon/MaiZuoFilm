@@ -1,0 +1,19 @@
+@import "common"
+
+.container
+  padding-top: 50*$px
+  .routerView
+    transition: all .2s ease
+
+.mytransition-enter,.mytransition-leave-active
+  opacity: 0
+  transform: translate(-30*$px,0)
+.mytransition-enter-active,.mytransition-leave
+  opacity: 1
+  transform: translate(30*$px,0)
+
+.fade-enter-active,.fade-leave-active
+  transition: opacity .4s
+
+.fade-enter,.fade-leave
+  opacity: 0

@@ -1,0 +1,28 @@
+@import "common"
+
+#detail
+  img
+    width: 100%
+  .intro
+    height: 35*$px
+    line-height: 35*$px
+    margin: 22*$px 0 22*$px
+    padding-left: 10*$px
+    border-left: 20*$px solid #e4c89c
+    font-size: 17*$px
+  ul
+    list-style: none
+    padding: 0 20*$px
+    width: 93%
+    li
+      height: 35*$px
+      line-height: 35*$px
+      overflow: hidden
+      font-size: 14*$px
+      text-overflow: ellipsis
+      white-space: nowrap
+      span
+        &:after
+          content: '|'
+        &:last-child:after
+          content: ''
